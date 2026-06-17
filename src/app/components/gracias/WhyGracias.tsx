@@ -70,7 +70,8 @@ export function WhyGracias() {
       <style>{`
         @media (max-width: 768px) {
           .why-grid { grid-template-columns: 1fr !important; }
-          section[style*="padding: 100px 0"] { padding: 64px 0 !important; }
+          section[style*="padding: 100px 0"] { padding: 56px 0 !important; }
+          section[style*="padding: 100px 0"] > div { padding: 0 16px !important; }
         }
       `}</style>
     </section>

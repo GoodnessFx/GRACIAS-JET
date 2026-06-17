@@ -35,9 +35,9 @@ export function Contact() {
       </div>
       <style>{`
         @media (max-width: 768px) {
-          .contact-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
-          #contact { padding: 64px 0 !important; }
-          #contact > div { padding: 0 24px !important; }
+          .contact-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+          #contact { padding: 56px 0 !important; }
+          #contact > div { padding: 0 16px !important; }
         }
       `}</style>
     </section>

@@ -55,7 +55,9 @@ export function Nav() {
             ))}
           </div>
           <ThemeToggleBtn onClick={toggleTheme} theme={theme} />
-          <EnquireBtn onClick={() => scrollTo('contact')} />
+          <div className="enquire-btn-container">
+            <EnquireBtn onClick={() => scrollTo('contact')} />
+          </div>
           <button
             onClick={() => setDrawerOpen(true)}
             className="hamburger-btn"
@@ -153,7 +155,8 @@ export function Nav() {
         @media (max-width: 768px) {
           .nav-links { display: none !important; }
           .hamburger-btn { display: block !important; }
-          nav { padding: 0 24px !important; height: 56px !important; }
+          .enquire-btn-container { display: none !important; }
+          nav { padding: 0 16px !important; height: 56px !important; }
         }
       `}</style>
     </>

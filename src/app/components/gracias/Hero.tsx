@@ -118,9 +118,9 @@ export function Hero() {
       <style>{`
         @media (max-width: 768px) {
           #hero > div:last-child {
-            padding: 0 24px !important;
-            padding-top: 100px !important;
-            padding-bottom: 64px !important;
+            padding: 0 16px !important;
+            padding-top: 90px !important;
+            padding-bottom: 56px !important;
           }
         }
       `}</style>

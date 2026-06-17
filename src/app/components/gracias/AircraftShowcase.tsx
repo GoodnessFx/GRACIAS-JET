@@ -67,8 +67,8 @@ export function AircraftShowcase() {
       <style>{`
         @media (max-width: 768px) {
           .aircraft-grid { grid-template-columns: 1fr !important; }
-          #aircraft { padding: 64px 0 !important; }
-          #aircraft > div { padding: 0 24px !important; }
+          #aircraft { padding: 56px 0 !important; }
+          #aircraft > div { padding: 0 16px !important; }
         }
       `}</style>
     </section>

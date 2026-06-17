@@ -88,8 +88,8 @@ export function Services() {
       <style>{`
         @media (max-width: 768px) {
           .services-grid { grid-template-columns: 1fr !important; }
-          #services { padding: 64px 0 !important; }
-          #services > div { padding: 0 24px !important; }
+          #services { padding: 56px 0 !important; }
+          #services > div { padding: 0 16px !important; }
         }
       `}</style>
     </section>

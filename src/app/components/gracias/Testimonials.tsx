@@ -50,8 +50,8 @@ export function Testimonials() {
       <style>{`
         @media (max-width: 768px) {
           .testimonials-grid { grid-template-columns: 1fr !important; }
-          #testimonials { padding: 64px 0 !important; }
-          #testimonials > div { padding: 0 24px !important; }
+          #testimonials { padding: 56px 0 !important; }
+          #testimonials > div { padding: 0 16px !important; }
         }
       `}</style>
     </section>

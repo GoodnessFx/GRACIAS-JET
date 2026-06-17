@@ -66,7 +66,7 @@ export function Footer() {
       <style>{`
         @media (max-width: 768px) {
           .footer-grid { grid-template-columns: 1fr !important; }
-          footer > div { padding: 0 24px !important; }
+          footer > div { padding: 0 16px !important; }
         }
       `}</style>
     </footer>

@@ -50,7 +50,8 @@ function AppContent() {
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; }
-        body { background: ${colors.bg}; }
+        html, body { overflow-x: hidden; }
+        body { background: ${colors.bg}; overflow-x: hidden; }
         select option { background: ${colors.surface}; color: ${colors.text}; }
         ::placeholder { color: ${colors.muted}; }
         ::-webkit-scrollbar { width: 6px; }

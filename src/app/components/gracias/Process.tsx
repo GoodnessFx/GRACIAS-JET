@@ -92,8 +92,8 @@ export function Process() {
         @media (max-width: 768px) {
           .process-grid { grid-template-columns: 1fr !important; }
           .process-connector { width: 100% !important; height: 1px !important; margin: 24px 0; }
-          #process { padding: 64px 0 !important; }
-          #process > div { padding: 0 24px !important; }
+          #process { padding: 56px 0 !important; }
+          #process > div { padding: 0 16px !important; }
         }
       `}</style>
     </section>
