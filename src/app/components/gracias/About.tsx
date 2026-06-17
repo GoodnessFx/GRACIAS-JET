@@ -89,6 +89,7 @@ export function About() {
           .about-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
           #about { padding: 64px 0 !important; }
           #about > div { padding: 0 24px !important; }
+          .about-image { height: 320px !important; }
         }
       `}</style>
     </section>
